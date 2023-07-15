@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>7STONES</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Header Section Start -->
+      <div class="top-header">
+        <div class="container">
+          <div class="top-nav">
+            <div>
+              <p class="welcome">Welcome to our store</p>
+            </div>
+
+            <div>
+              <a href="#">
+                <p class="newsletter">
+                  <i class="fa-regular fa-envelope"></i> Subscribe to our
+                  newsletter
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="theme-header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a href="#" class="main-logo">
+              <img src="./img/brand-logo.png" alt="logo" />
+            </a>
+
+            <div class="overlay"></div>
+
+            <div class="icon-toggle">
+              <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-user"></i>
+              </a>
+
+              <a href="#">
+                <button class="btn position-relative cart-btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill cardt-badge"
+                  >
+                    0
+                  </span>
+                </button>
+              </a>
+
+              <button class="navbar-toggler burger" id="burger" type="button">
+                <span></span>
+                <span class=""></span>
+                <span></span>
+              </button>
+            </div>
+
+            <div class="navbar-collapse" id="menuList">
+              <ul class="navbar-nav center-nav">
+                <li class="menu-link">
+                  <a href="#" class="nav-link">All Products</a>
+                </li>
+                <li class="menu-link">
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle n-link"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Collections
+                    </button>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item" href="#" class="nav-link"
+                        >Action</a
+                      >
+                      <a class="dropdown-item" href="#" class="nav-link"
+                        >Another action</a
+                      >
+                      <a class="dropdown-item" href="#" class="nav-link"
+                        >Something else here</a
+                      >
+                    </div>
+                  </div>
+                </li>
+                <li class="menu-link">
+                  <a href="#">About Us</a>
+                </li>
+                <li class="schedule-btn"><a href="#">FAQ'S</a></li>
+              </ul>
+
+              <div class="search_bar">
+                <div class="dropdown">
+                  <button
+                    class="btn n-link categories-btn"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    All categories <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-dark srh-btn" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+
+              <ul class="social-icon deskotp-view">
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <button class="btn position-relative cart-btn">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill cardt-badge"
+                      >
+                        0
+                      </span>
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="main_drops">
+        <ul>
+          <li class="menu-link">
+            <a href="#" class="nav-link">All Products</a>
+          </li>
+
+          <li class="menu-link">
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle n-link"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Collections
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+          </li>
+          <li class="menu-link"><a href="#" class="nav-link">About Us</a></li>
+          <li class="schedule-btn"><a href="#" class="nav-link">FAQ'S</a></li>
+        </ul>
+      </div>
+      <!-- Header Section End -->
+
+      <!-- Home Section Start -->
+      <section class="home-section">
+        <div class="contain">
+          <h3 data-aos="fade-up">special offers</h3>
+          <h1 data-aos="fade-up">Discover a world of jewelry</h1>
+          <a href="#" class="explore-btn" data-aos="fade-up"
+            >Explore Bestsellers <img src="./img/arrow.png" alt="img"
+          /></a>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- Category Section Start -->
+      <section class="category-section py-5">
+        <div class="container">
+          <h5 class="title" data-aos="fade-up">Category</h5>
+          <div class="row g-2 mt-4">
+            <div class="col-sm-4 col-12">
+              <div class="main_category">
+                <div class="card" data-aos="fade-up">
+                  <div class="under_category1 cate_img">
+                    <img src="./img/cate1.png" alt="cate1" />
+                  </div>
+                  <a href="#" class="category-btn">EARINGS</a>
+                </div>
+                <div class="card" data-aos="fade-up" >
+                  <div class="under_category2 cate_img">
+                    <img src="./img/cate2.png" alt="cate1" />
+                  </div>
+                  <a href="#" class="category-btn">MUG</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="main_category center_category">
+                <div class="card" data-aos="fade-up">
+                  <div class="under_category1 cate_img">
+                    <img src="./img/cate3.png" alt="cate1" />
+                  </div>
+                  <a href="#" class="category-btn">WRIST WATCH</a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                  <div class="under_category2 cate_img">
+                    <img src="./img/cate4.png" alt="cate1" />
+                  </div>
+                  <a href="#" class="category-btn">HOOP EARINGS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="main_category">
+                <div class="card" data-aos="fade-up">
+                  <div class="under_category1 cate_img">
+                    <img src="./img/cate5.png" alt="cate1" />
+                  </div>
+                  <a href="#" class="category-btn">NECKLACE</a>
+                </div>
+                <div class="card" data-aos="fade-up">
+                  <div class="under_category2 cate_img">
+                    <img src="./img/cate6.png" alt="cate1" />
+                  </div>
+                  <a href="#" class="category-btn">TUMBLER</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Category Section End -->
+
+      <!-- About us Section Start -->
+      <section class="about-section py-4">
+        <div class="container">
+          <div class="row g-3 align-items-center">
+            <div class="col-sm-6 col-12">
+              <div class="about-discription">
+                <h5 data-aos="fade-up">about us</h5>
+                <p data-aos="fade-up">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lectus urna eget et at. Tempor, tincidunt risus id et euismod
+                  purus. Lectus mattis purus in malesuada in cras diam. Dolor,
+                  urna, consectetur aliquet adipiscing mus....
+                </p>
+                <a href="#" class="read-btn" data-aos="fade-up"> read more </a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-12">
+              <div class="about_img" data-aos="fade-up">
+                <img src="./img/about_img.png" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About us Section End -->
+
+      <!-- LatestProducts Section Start -->
+      <div class="card-section py-5">
+        <div class="container">
+          <div class="heading">
+            <h5 class="section-title" data-aos="fade-up">Our Latest Products</h5>
+            <a href="#" class="view-btn" data-aos="fade-up">view all</a>
+          </div>
+          <div class="owl-carousel card-carousel owl-theme" data-aos="fade-up">
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch1.png"
+                    alt="Card image"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Factory Saat Genuine Fashion Leather Strap
+                  </h5>
+                  <p class="card-text">$65.00</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch2.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Sport Quartz Clock Man Watches</h5>
+                  <p class="card-text">$12.52</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch3.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Digital Display Megalith Rubber Strap Watch
+                  </h5>
+                  <p class="card-text">$65.24</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch4.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Taylor Sweater</h5>
+                  <p class="card-text">$68.45</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch1.png"
+                    alt="Card image"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Factory Saat Genuine Fashion Leather Strap
+                  </h5>
+                  <p class="card-text">$65.00</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch2.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Sport Quartz Clock Man Watches</h5>
+                  <p class="card-text">$12.52</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch3.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Digital Display Megalith Rubber Strap Watch
+                  </h5>
+                  <p class="card-text">$65.24</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch4.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Taylor Sweater</h5>
+                  <p class="card-text">$68.45</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch1.png"
+                    alt="Card image"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Factory Saat Genuine Fashion Leather Strap
+                  </h5>
+                  <p class="card-text">$65.00</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch2.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Sport Quartz Clock Man Watches</h5>
+                  <p class="card-text">$12.52</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch3.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Digital Display Megalith Rubber Strap Watch
+                  </h5>
+                  <p class="card-text">$65.24</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="catd-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/watch4.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Taylor Sweater</h5>
+                  <p class="card-text">$68.45</p>
+                  <div class="card-btns">
+                    <a href="#" class="btn card-btn add-btn">add to Card</a>
+                    <a href="#" class="btn card-btn buy-btn">buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- LatestProducts Section End -->
+
+      <!-- FAQ Section Start -->
+      <section class="faq-section">
+        <div class="container">
+          <h5 class="section-title" data-aos="fade-up">Frequently Asked Questions</h5>
+          <div class="accordion" id="accordionExample">
+            <div class="card" data-aos="fade-up">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Lorem Ipsum is dummy text ?
+
+                    <img
+                      src="./img/according-arrow.png"
+                      class="acc-arrow"
+                      alt="arrow"
+                    />
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                  sagittis donec facilisis dignissim. Sed scelerisque dictumst
+                  volutpat lacus adipiscing est lacus enim praesent. Mattis
+                  potenti mi elementum et. A, tellus augue cursus platea
+                  dignissim netus ac.
+                </div>
+              </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Lorem Ipsum is dummy text ?
+
+                    <img
+                      src="./img/according-arrow.png"
+                      class="acc-arrow"
+                      alt="arrow"
+                    />
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                  sagittis donec facilisis dignissim. Sed scelerisque dictumst
+                  volutpat lacus adipiscing est lacus enim praesent. Mattis
+                  potenti mi elementum et. A, tellus augue cursus platea
+                  dignissim netus ac.
+                </div>
+              </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Lorem Ipsum is dummy text ?
+
+                    <img
+                      src="./img/according-arrow.png"
+                      class="acc-arrow"
+                      alt="arrow"
+                    />
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                  sagittis donec facilisis dignissim. Sed scelerisque dictumst
+                  volutpat lacus adipiscing est lacus enim praesent. Mattis
+                  potenti mi elementum et. A, tellus augue cursus platea
+                  dignissim netus ac.
+                </div>
+              </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Lorem Ipsum is dummy text ?
+
+                    <img
+                      src="./img/according-arrow.png"
+                      class="acc-arrow"
+                      alt="arrow"
+                    />
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFive"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                  sagittis donec facilisis dignissim. Sed scelerisque dictumst
+                  volutpat lacus adipiscing est lacus enim praesent. Mattis
+                  potenti mi elementum et. A, tellus augue cursus platea
+                  dignissim netus ac.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section Start -->
+
+      <!-- Client Review Section Start -->
+      <div class="client-section py-5">
+        <div class="container">
+          <h5 class="section-title" data-aos="fade-up">Client Reviews</h5>
+          <div class="owl-carousel lorem-carousel owl-theme" data-aos="fade-up">
+            <div class="item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/star.png"
+                    alt="Card image"
+                  />
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus amet ultrices morbi commodo, quam lacus quis.
+                  Faucibus amet ultrices morbi commodo, quam lacus quis.
+                </p>
+                <h5 class="card-title">mex</h5>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/star.png"
+                    alt="Card image"
+                  />
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus amet ultrices morbi commodo, quam lacus quis.
+                  Faucibus amet ultrices morbi commodo, quam lacus quis.
+                </p>
+                <h5 class="card-title">john</h5>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/star.png"
+                    alt="Card image"
+                  />
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus amet ultrices morbi commodo, quam lacus quis.
+                  Faucibus amet ultrices morbi commodo, quam lacus quis.
+                </p>
+                <h5 class="card-title">kevin</h5>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    class="card-img-top"
+                    src="./img/star.png"
+                    alt="Card image"
+                  />
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus amet ultrices morbi commodo, quam lacus quis.
+                  Faucibus amet ultrices morbi commodo, quam lacus quis.
+                </p>
+                <h5 class="card-title">john</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Client Review Section End -->
+
+      <!-- Footer Section Start -->
+      <footer class="footer-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-12">
+              <a href="#">
+                <div class="logo">
+                  <img src="./img/foot-logo.png" alt="logo" />
+                </div>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Adipiscing ipsum aliquet id eget venenatis feugiat in. Ipsum,
+                cras tortor tincidunt id convallis egestas.
+              </p>
+              <h5>follow us</h5>
+              <ul class="social-btn">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6">
+              <h5 class="title">shop</h5>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FAQ’s</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6">
+              <h5 class="title">Information</h5>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Services</a></li>
+                <li><a href="#">Return & Refund Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-12">
+              <h5 class="title">Newsletter</h5>
+              <p>
+                Subscribe to get notified about product launches, special offers
+                and news.
+              </p>
+              <input type="email" placeholder="yout email" />
+              <a href="#" class="sub-btn">SUBSCRIBE</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js "></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+      AOS.init({
+        once: "true",
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
